@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C792C21A1B4F43370062A170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C2191B4F43370062A170 /* AppDelegate.swift */; };
+		C792C21C1B4F43370062A170 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C21B1B4F43370062A170 /* RootViewController.swift */; };
+		C792C21E1B4F43370062A170 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C21D1B4F43370062A170 /* DataViewController.swift */; };
+		C792C2201B4F43370062A170 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C21F1B4F43370062A170 /* ModelController.swift */; };
+		C792C2231B4F43370062A170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C792C2211B4F43370062A170 /* Main.storyboard */; };
+		C792C2251B4F43370062A170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C792C2241B4F43370062A170 /* Images.xcassets */; };
+		C792C2281B4F43370062A170 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C792C2261B4F43370062A170 /* LaunchScreen.xib */; };
+		C792C2341B4F43370062A170 /* ringoPBATemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C2331B4F43370062A170 /* ringoPBATemplateTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C792C22E1B4F43370062A170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C792C20C1B4F43370062A170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C792C2131B4F43370062A170;
+			remoteInfo = ringoPBATemplate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C792C2141B4F43370062A170 /* ringoPBATemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringoPBATemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C792C2181B4F43370062A170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C792C2191B4F43370062A170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C792C21B1B4F43370062A170 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		C792C21D1B4F43370062A170 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		C792C21F1B4F43370062A170 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		C792C2221B4F43370062A170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C792C2241B4F43370062A170 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C792C2271B4F43370062A170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C792C22D1B4F43370062A170 /* ringoPBATemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringoPBATemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C792C2321B4F43370062A170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C792C2331B4F43370062A170 /* ringoPBATemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringoPBATemplateTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C792C2111B4F43370062A170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C792C22A1B4F43370062A170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C792C20B1B4F43370062A170 = {
+			isa = PBXGroup;
+			children = (
+				C792C2161B4F43370062A170 /* ringoPBATemplate */,
+				C792C2301B4F43370062A170 /* ringoPBATemplateTests */,
+				C792C2151B4F43370062A170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C792C2151B4F43370062A170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C792C2141B4F43370062A170 /* ringoPBATemplate.app */,
+				C792C22D1B4F43370062A170 /* ringoPBATemplateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C792C2161B4F43370062A170 /* ringoPBATemplate */ = {
+			isa = PBXGroup;
+			children = (
+				C792C2191B4F43370062A170 /* AppDelegate.swift */,
+				C792C21B1B4F43370062A170 /* RootViewController.swift */,
+				C792C21D1B4F43370062A170 /* DataViewController.swift */,
+				C792C21F1B4F43370062A170 /* ModelController.swift */,
+				C792C2211B4F43370062A170 /* Main.storyboard */,
+				C792C2241B4F43370062A170 /* Images.xcassets */,
+				C792C2261B4F43370062A170 /* LaunchScreen.xib */,
+				C792C2171B4F43370062A170 /* Supporting Files */,
+			);
+			path = ringoPBATemplate;
+			sourceTree = "<group>";
+		};
+		C792C2171B4F43370062A170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C792C2181B4F43370062A170 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C792C2301B4F43370062A170 /* ringoPBATemplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				C792C2331B4F43370062A170 /* ringoPBATemplateTests.swift */,
+				C792C2311B4F43370062A170 /* Supporting Files */,
+			);
+			path = ringoPBATemplateTests;
+			sourceTree = "<group>";
+		};
+		C792C2311B4F43370062A170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C792C2321B4F43370062A170 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C792C2131B4F43370062A170 /* ringoPBATemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C792C2371B4F43370062A170 /* Build configuration list for PBXNativeTarget "ringoPBATemplate" */;
+			buildPhases = (
+				C792C2101B4F43370062A170 /* Sources */,
+				C792C2111B4F43370062A170 /* Frameworks */,
+				C792C2121B4F43370062A170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ringoPBATemplate;
+			productName = ringoPBATemplate;
+			productReference = C792C2141B4F43370062A170 /* ringoPBATemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C792C22C1B4F43370062A170 /* ringoPBATemplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C792C23A1B4F43370062A170 /* Build configuration list for PBXNativeTarget "ringoPBATemplateTests" */;
+			buildPhases = (
+				C792C2291B4F43370062A170 /* Sources */,
+				C792C22A1B4F43370062A170 /* Frameworks */,
+				C792C22B1B4F43370062A170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C792C22F1B4F43370062A170 /* PBXTargetDependency */,
+			);
+			name = ringoPBATemplateTests;
+			productName = ringoPBATemplateTests;
+			productReference = C792C22D1B4F43370062A170 /* ringoPBATemplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C792C20C1B4F43370062A170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Ringo;
+				TargetAttributes = {
+					C792C2131B4F43370062A170 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C792C22C1B4F43370062A170 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C792C2131B4F43370062A170;
+					};
+				};
+			};
+			buildConfigurationList = C792C20F1B4F43370062A170 /* Build configuration list for PBXProject "ringoPBATemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C792C20B1B4F43370062A170;
+			productRefGroup = C792C2151B4F43370062A170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C792C2131B4F43370062A170 /* ringoPBATemplate */,
+				C792C22C1B4F43370062A170 /* ringoPBATemplateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C792C2121B4F43370062A170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C792C2231B4F43370062A170 /* Main.storyboard in Resources */,
+				C792C2281B4F43370062A170 /* LaunchScreen.xib in Resources */,
+				C792C2251B4F43370062A170 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C792C22B1B4F43370062A170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C792C2101B4F43370062A170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C792C21C1B4F43370062A170 /* RootViewController.swift in Sources */,
+				C792C2201B4F43370062A170 /* ModelController.swift in Sources */,
+				C792C21E1B4F43370062A170 /* DataViewController.swift in Sources */,
+				C792C21A1B4F43370062A170 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C792C2291B4F43370062A170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C792C2341B4F43370062A170 /* ringoPBATemplateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C792C22F1B4F43370062A170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C792C2131B4F43370062A170 /* ringoPBATemplate */;
+			targetProxy = C792C22E1B4F43370062A170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C792C2211B4F43370062A170 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C792C2221B4F43370062A170 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C792C2261B4F43370062A170 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C792C2271B4F43370062A170 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C792C2351B4F43370062A170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C792C2361B4F43370062A170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C792C2381B4F43370062A170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ringoPBATemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C792C2391B4F43370062A170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ringoPBATemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C792C23B1B4F43370062A170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ringoPBATemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringoPBATemplate.app/ringoPBATemplate";
+			};
+			name = Debug;
+		};
+		C792C23C1B4F43370062A170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ringoPBATemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringoPBATemplate.app/ringoPBATemplate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C792C20F1B4F43370062A170 /* Build configuration list for PBXProject "ringoPBATemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C792C2351B4F43370062A170 /* Debug */,
+				C792C2361B4F43370062A170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C792C2371B4F43370062A170 /* Build configuration list for PBXNativeTarget "ringoPBATemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C792C2381B4F43370062A170 /* Debug */,
+				C792C2391B4F43370062A170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C792C23A1B4F43370062A170 /* Build configuration list for PBXNativeTarget "ringoPBATemplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C792C23B1B4F43370062A170 /* Debug */,
+				C792C23C1B4F43370062A170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C792C20C1B4F43370062A170 /* Project object */;
+}
