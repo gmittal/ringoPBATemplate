@@ -7,50 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C792C21A1B4F43370062A170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C2191B4F43370062A170 /* AppDelegate.swift */; };
-		C792C21C1B4F43370062A170 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C21B1B4F43370062A170 /* RootViewController.swift */; };
-		C792C21E1B4F43370062A170 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C21D1B4F43370062A170 /* DataViewController.swift */; };
-		C792C2201B4F43370062A170 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C21F1B4F43370062A170 /* ModelController.swift */; };
-		C792C2231B4F43370062A170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C792C2211B4F43370062A170 /* Main.storyboard */; };
-		C792C2251B4F43370062A170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C792C2241B4F43370062A170 /* Images.xcassets */; };
-		C792C2281B4F43370062A170 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C792C2261B4F43370062A170 /* LaunchScreen.xib */; };
-		C792C2341B4F43370062A170 /* ringoPBATemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C792C2331B4F43370062A170 /* ringoPBATemplateTests.swift */; };
+		C76535C01BD16E5000077766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76535BF1BD16E5000077766 /* AppDelegate.swift */; };
+		C76535C21BD16E5000077766 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76535C11BD16E5000077766 /* RootViewController.swift */; };
+		C76535C41BD16E5000077766 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76535C31BD16E5000077766 /* DataViewController.swift */; };
+		C76535C61BD16E5000077766 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76535C51BD16E5000077766 /* ModelController.swift */; };
+		C76535C91BD16E5000077766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76535C71BD16E5000077766 /* Main.storyboard */; };
+		C76535CB1BD16E5000077766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76535CA1BD16E5000077766 /* Assets.xcassets */; };
+		C76535CE1BD16E5000077766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76535CC1BD16E5000077766 /* LaunchScreen.storyboard */; };
+		C76535D91BD16E5100077766 /* ringoPBATemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76535D81BD16E5100077766 /* ringoPBATemplateTests.swift */; };
+		C76535E41BD16E5100077766 /* ringoPBATemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76535E31BD16E5100077766 /* ringoPBATemplateUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C792C22E1B4F43370062A170 /* PBXContainerItemProxy */ = {
+		C76535D51BD16E5100077766 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C792C20C1B4F43370062A170 /* Project object */;
+			containerPortal = C76535B41BD16E5000077766 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C792C2131B4F43370062A170;
+			remoteGlobalIDString = C76535BB1BD16E5000077766;
+			remoteInfo = ringoPBATemplate;
+		};
+		C76535E01BD16E5100077766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C76535B41BD16E5000077766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C76535BB1BD16E5000077766;
 			remoteInfo = ringoPBATemplate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C792C2141B4F43370062A170 /* ringoPBATemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringoPBATemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C792C2181B4F43370062A170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C792C2191B4F43370062A170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C792C21B1B4F43370062A170 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		C792C21D1B4F43370062A170 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		C792C21F1B4F43370062A170 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		C792C2221B4F43370062A170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C792C2241B4F43370062A170 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C792C2271B4F43370062A170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C792C22D1B4F43370062A170 /* ringoPBATemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringoPBATemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C792C2321B4F43370062A170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C792C2331B4F43370062A170 /* ringoPBATemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringoPBATemplateTests.swift; sourceTree = "<group>"; };
+		C76535BC1BD16E5000077766 /* ringoPBATemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringoPBATemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76535BF1BD16E5000077766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C76535C11BD16E5000077766 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		C76535C31BD16E5000077766 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		C76535C51BD16E5000077766 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		C76535C81BD16E5000077766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C76535CA1BD16E5000077766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C76535CD1BD16E5000077766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C76535CF1BD16E5000077766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76535D41BD16E5100077766 /* ringoPBATemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringoPBATemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76535D81BD16E5100077766 /* ringoPBATemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringoPBATemplateTests.swift; sourceTree = "<group>"; };
+		C76535DA1BD16E5100077766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76535DF1BD16E5100077766 /* ringoPBATemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringoPBATemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76535E31BD16E5100077766 /* ringoPBATemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringoPBATemplateUITests.swift; sourceTree = "<group>"; };
+		C76535E51BD16E5100077766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C792C2111B4F43370062A170 /* Frameworks */ = {
+		C76535B91BD16E5000077766 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C792C22A1B4F43370062A170 /* Frameworks */ = {
+		C76535D11BD16E5100077766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76535DC1BD16E5100077766 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,74 +78,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C792C20B1B4F43370062A170 = {
+		C76535B31BD16E5000077766 = {
 			isa = PBXGroup;
 			children = (
-				C792C2161B4F43370062A170 /* ringoPBATemplate */,
-				C792C2301B4F43370062A170 /* ringoPBATemplateTests */,
-				C792C2151B4F43370062A170 /* Products */,
+				C76535BE1BD16E5000077766 /* ringoPBATemplate */,
+				C76535D71BD16E5100077766 /* ringoPBATemplateTests */,
+				C76535E21BD16E5100077766 /* ringoPBATemplateUITests */,
+				C76535BD1BD16E5000077766 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C792C2151B4F43370062A170 /* Products */ = {
+		C76535BD1BD16E5000077766 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C792C2141B4F43370062A170 /* ringoPBATemplate.app */,
-				C792C22D1B4F43370062A170 /* ringoPBATemplateTests.xctest */,
+				C76535BC1BD16E5000077766 /* ringoPBATemplate.app */,
+				C76535D41BD16E5100077766 /* ringoPBATemplateTests.xctest */,
+				C76535DF1BD16E5100077766 /* ringoPBATemplateUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C792C2161B4F43370062A170 /* ringoPBATemplate */ = {
+		C76535BE1BD16E5000077766 /* ringoPBATemplate */ = {
 			isa = PBXGroup;
 			children = (
-				C792C2191B4F43370062A170 /* AppDelegate.swift */,
-				C792C21B1B4F43370062A170 /* RootViewController.swift */,
-				C792C21D1B4F43370062A170 /* DataViewController.swift */,
-				C792C21F1B4F43370062A170 /* ModelController.swift */,
-				C792C2211B4F43370062A170 /* Main.storyboard */,
-				C792C2241B4F43370062A170 /* Images.xcassets */,
-				C792C2261B4F43370062A170 /* LaunchScreen.xib */,
-				C792C2171B4F43370062A170 /* Supporting Files */,
+				C76535BF1BD16E5000077766 /* AppDelegate.swift */,
+				C76535C11BD16E5000077766 /* RootViewController.swift */,
+				C76535C31BD16E5000077766 /* DataViewController.swift */,
+				C76535C51BD16E5000077766 /* ModelController.swift */,
+				C76535C71BD16E5000077766 /* Main.storyboard */,
+				C76535CA1BD16E5000077766 /* Assets.xcassets */,
+				C76535CC1BD16E5000077766 /* LaunchScreen.storyboard */,
+				C76535CF1BD16E5000077766 /* Info.plist */,
 			);
 			path = ringoPBATemplate;
 			sourceTree = "<group>";
 		};
-		C792C2171B4F43370062A170 /* Supporting Files */ = {
+		C76535D71BD16E5100077766 /* ringoPBATemplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				C792C2181B4F43370062A170 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C792C2301B4F43370062A170 /* ringoPBATemplateTests */ = {
-			isa = PBXGroup;
-			children = (
-				C792C2331B4F43370062A170 /* ringoPBATemplateTests.swift */,
-				C792C2311B4F43370062A170 /* Supporting Files */,
+				C76535D81BD16E5100077766 /* ringoPBATemplateTests.swift */,
+				C76535DA1BD16E5100077766 /* Info.plist */,
 			);
 			path = ringoPBATemplateTests;
 			sourceTree = "<group>";
 		};
-		C792C2311B4F43370062A170 /* Supporting Files */ = {
+		C76535E21BD16E5100077766 /* ringoPBATemplateUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C792C2321B4F43370062A170 /* Info.plist */,
+				C76535E31BD16E5100077766 /* ringoPBATemplateUITests.swift */,
+				C76535E51BD16E5100077766 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = ringoPBATemplateUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C792C2131B4F43370062A170 /* ringoPBATemplate */ = {
+		C76535BB1BD16E5000077766 /* ringoPBATemplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C792C2371B4F43370062A170 /* Build configuration list for PBXNativeTarget "ringoPBATemplate" */;
+			buildConfigurationList = C76535E81BD16E5100077766 /* Build configuration list for PBXNativeTarget "ringoPBATemplate" */;
 			buildPhases = (
-				C792C2101B4F43370062A170 /* Sources */,
-				C792C2111B4F43370062A170 /* Frameworks */,
-				C792C2121B4F43370062A170 /* Resources */,
+				C76535B81BD16E5000077766 /* Sources */,
+				C76535B91BD16E5000077766 /* Frameworks */,
+				C76535BA1BD16E5000077766 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -135,46 +148,68 @@
 			);
 			name = ringoPBATemplate;
 			productName = ringoPBATemplate;
-			productReference = C792C2141B4F43370062A170 /* ringoPBATemplate.app */;
+			productReference = C76535BC1BD16E5000077766 /* ringoPBATemplate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C792C22C1B4F43370062A170 /* ringoPBATemplateTests */ = {
+		C76535D31BD16E5100077766 /* ringoPBATemplateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C792C23A1B4F43370062A170 /* Build configuration list for PBXNativeTarget "ringoPBATemplateTests" */;
+			buildConfigurationList = C76535EB1BD16E5100077766 /* Build configuration list for PBXNativeTarget "ringoPBATemplateTests" */;
 			buildPhases = (
-				C792C2291B4F43370062A170 /* Sources */,
-				C792C22A1B4F43370062A170 /* Frameworks */,
-				C792C22B1B4F43370062A170 /* Resources */,
+				C76535D01BD16E5100077766 /* Sources */,
+				C76535D11BD16E5100077766 /* Frameworks */,
+				C76535D21BD16E5100077766 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C792C22F1B4F43370062A170 /* PBXTargetDependency */,
+				C76535D61BD16E5100077766 /* PBXTargetDependency */,
 			);
 			name = ringoPBATemplateTests;
 			productName = ringoPBATemplateTests;
-			productReference = C792C22D1B4F43370062A170 /* ringoPBATemplateTests.xctest */;
+			productReference = C76535D41BD16E5100077766 /* ringoPBATemplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C76535DE1BD16E5100077766 /* ringoPBATemplateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76535EE1BD16E5100077766 /* Build configuration list for PBXNativeTarget "ringoPBATemplateUITests" */;
+			buildPhases = (
+				C76535DB1BD16E5100077766 /* Sources */,
+				C76535DC1BD16E5100077766 /* Frameworks */,
+				C76535DD1BD16E5100077766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C76535E11BD16E5100077766 /* PBXTargetDependency */,
+			);
+			name = ringoPBATemplateUITests;
+			productName = ringoPBATemplateUITests;
+			productReference = C76535DF1BD16E5100077766 /* ringoPBATemplateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C792C20C1B4F43370062A170 /* Project object */ = {
+		C76535B41BD16E5000077766 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Ringo;
 				TargetAttributes = {
-					C792C2131B4F43370062A170 = {
-						CreatedOnToolsVersion = 6.4;
+					C76535BB1BD16E5000077766 = {
+						CreatedOnToolsVersion = 7.0.1;
 					};
-					C792C22C1B4F43370062A170 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = C792C2131B4F43370062A170;
+					C76535D31BD16E5100077766 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C76535BB1BD16E5000077766;
+					};
+					C76535DE1BD16E5100077766 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = C76535BB1BD16E5000077766;
 					};
 				};
 			};
-			buildConfigurationList = C792C20F1B4F43370062A170 /* Build configuration list for PBXProject "ringoPBATemplate" */;
+			buildConfigurationList = C76535B71BD16E5000077766 /* Build configuration list for PBXProject "ringoPBATemplate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -182,29 +217,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C792C20B1B4F43370062A170;
-			productRefGroup = C792C2151B4F43370062A170 /* Products */;
+			mainGroup = C76535B31BD16E5000077766;
+			productRefGroup = C76535BD1BD16E5000077766 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C792C2131B4F43370062A170 /* ringoPBATemplate */,
-				C792C22C1B4F43370062A170 /* ringoPBATemplateTests */,
+				C76535BB1BD16E5000077766 /* ringoPBATemplate */,
+				C76535D31BD16E5100077766 /* ringoPBATemplateTests */,
+				C76535DE1BD16E5100077766 /* ringoPBATemplateUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C792C2121B4F43370062A170 /* Resources */ = {
+		C76535BA1BD16E5000077766 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C792C2231B4F43370062A170 /* Main.storyboard in Resources */,
-				C792C2281B4F43370062A170 /* LaunchScreen.xib in Resources */,
-				C792C2251B4F43370062A170 /* Images.xcassets in Resources */,
+				C76535CE1BD16E5000077766 /* LaunchScreen.storyboard in Resources */,
+				C76535CB1BD16E5000077766 /* Assets.xcassets in Resources */,
+				C76535C91BD16E5000077766 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C792C22B1B4F43370062A170 /* Resources */ = {
+		C76535D21BD16E5100077766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76535DD1BD16E5100077766 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,56 +257,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C792C2101B4F43370062A170 /* Sources */ = {
+		C76535B81BD16E5000077766 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C792C21C1B4F43370062A170 /* RootViewController.swift in Sources */,
-				C792C2201B4F43370062A170 /* ModelController.swift in Sources */,
-				C792C21E1B4F43370062A170 /* DataViewController.swift in Sources */,
-				C792C21A1B4F43370062A170 /* AppDelegate.swift in Sources */,
+				C76535C21BD16E5000077766 /* RootViewController.swift in Sources */,
+				C76535C61BD16E5000077766 /* ModelController.swift in Sources */,
+				C76535C41BD16E5000077766 /* DataViewController.swift in Sources */,
+				C76535C01BD16E5000077766 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C792C2291B4F43370062A170 /* Sources */ = {
+		C76535D01BD16E5100077766 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C792C2341B4F43370062A170 /* ringoPBATemplateTests.swift in Sources */,
+				C76535D91BD16E5100077766 /* ringoPBATemplateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76535DB1BD16E5100077766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76535E41BD16E5100077766 /* ringoPBATemplateUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C792C22F1B4F43370062A170 /* PBXTargetDependency */ = {
+		C76535D61BD16E5100077766 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C792C2131B4F43370062A170 /* ringoPBATemplate */;
-			targetProxy = C792C22E1B4F43370062A170 /* PBXContainerItemProxy */;
+			target = C76535BB1BD16E5000077766 /* ringoPBATemplate */;
+			targetProxy = C76535D51BD16E5100077766 /* PBXContainerItemProxy */;
+		};
+		C76535E11BD16E5100077766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C76535BB1BD16E5000077766 /* ringoPBATemplate */;
+			targetProxy = C76535E01BD16E5100077766 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C792C2211B4F43370062A170 /* Main.storyboard */ = {
+		C76535C71BD16E5000077766 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C792C2221B4F43370062A170 /* Base */,
+				C76535C81BD16E5000077766 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C792C2261B4F43370062A170 /* LaunchScreen.xib */ = {
+		C76535CC1BD16E5000077766 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C792C2271B4F43370062A170 /* Base */,
+				C76535CD1BD16E5000077766 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C792C2351B4F43370062A170 /* Debug */ = {
+		C76535E61BD16E5100077766 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,8 +338,9 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -292,14 +349,13 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -307,7 +363,7 @@
 			};
 			name = Debug;
 		};
-		C792C2361B4F43370062A170 /* Release */ = {
+		C76535E71BD16E5100077766 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -337,96 +393,120 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C792C2381B4F43370062A170 /* Debug */ = {
+		C76535E91BD16E5100077766 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ringoPBATemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoPBATemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		C792C2391B4F43370062A170 /* Release */ = {
+		C76535EA1BD16E5100077766 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ringoPBATemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoPBATemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		C792C23B1B4F43370062A170 /* Debug */ = {
+		C76535EC1BD16E5100077766 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = ringoPBATemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoPBATemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringoPBATemplate.app/ringoPBATemplate";
 			};
 			name = Debug;
 		};
-		C792C23C1B4F43370062A170 /* Release */ = {
+		C76535ED1BD16E5100077766 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = ringoPBATemplateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoPBATemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringoPBATemplate.app/ringoPBATemplate";
+			};
+			name = Release;
+		};
+		C76535EF1BD16E5100077766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ringoPBATemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoPBATemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ringoPBATemplate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C76535F01BD16E5100077766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ringoPBATemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ringo.ringoPBATemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ringoPBATemplate;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C792C20F1B4F43370062A170 /* Build configuration list for PBXProject "ringoPBATemplate" */ = {
+		C76535B71BD16E5000077766 /* Build configuration list for PBXProject "ringoPBATemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C792C2351B4F43370062A170 /* Debug */,
-				C792C2361B4F43370062A170 /* Release */,
+				C76535E61BD16E5100077766 /* Debug */,
+				C76535E71BD16E5100077766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C792C2371B4F43370062A170 /* Build configuration list for PBXNativeTarget "ringoPBATemplate" */ = {
+		C76535E81BD16E5100077766 /* Build configuration list for PBXNativeTarget "ringoPBATemplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C792C2381B4F43370062A170 /* Debug */,
-				C792C2391B4F43370062A170 /* Release */,
+				C76535E91BD16E5100077766 /* Debug */,
+				C76535EA1BD16E5100077766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C792C23A1B4F43370062A170 /* Build configuration list for PBXNativeTarget "ringoPBATemplateTests" */ = {
+		C76535EB1BD16E5100077766 /* Build configuration list for PBXNativeTarget "ringoPBATemplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C792C23B1B4F43370062A170 /* Debug */,
-				C792C23C1B4F43370062A170 /* Release */,
+				C76535EC1BD16E5100077766 /* Debug */,
+				C76535ED1BD16E5100077766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C76535EE1BD16E5100077766 /* Build configuration list for PBXNativeTarget "ringoPBATemplateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76535EF1BD16E5100077766 /* Debug */,
+				C76535F01BD16E5100077766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C792C20C1B4F43370062A170 /* Project object */;
+	rootObject = C76535B41BD16E5000077766 /* Project object */;
 }

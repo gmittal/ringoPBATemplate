@@ -3,15 +3,14 @@
 //  ringoPBATemplate
 //
 
-//  Copyright (c) 2015 Ringo. All rights reserved.
-//
+
 
 import UIKit
 
 class DataViewController: UIViewController {
 
     @IBOutlet weak var dataLabel: UILabel!
-    var dataObject: AnyObject?
+    var dataObject: String = ""
 
 
     override func viewDidLoad() {
@@ -26,11 +25,7 @@ class DataViewController: UIViewController {
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        if let obj: AnyObject = dataObject {
-            self.dataLabel!.text = obj.description
-        } else {
-            self.dataLabel!.text = ""
-        }
+        self.dataLabel!.text = dataObject
     }
 
 

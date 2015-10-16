@@ -2,8 +2,8 @@
 //  ModelController.swift
 //  ringoPBATemplate
 //
-//  Copyright (c) 2015 Ringo. All rights reserved.
-//
+
+
 
 import UIKit
 
@@ -19,7 +19,7 @@ import UIKit
 
 class ModelController: NSObject, UIPageViewControllerDataSource {
 
-    var pageData = NSArray()
+    var pageData: [String] = []
 
 
     override init() {
@@ -44,11 +44,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
     func indexOfViewController(viewController: DataViewController) -> Int {
         // Return the index of the given data view controller.
         // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
-        if let dataObject: AnyObject = viewController.dataObject {
-            return self.pageData.indexOfObject(dataObject)
-        } else {
-            return NSNotFound
-        }
+        return pageData.indexOf(viewController.dataObject) ?? NSNotFound
     }
 
     // MARK: - Page View Controller Data Source
